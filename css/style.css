@@ -1,0 +1,219 @@
+body{
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black !important;
+    font-size: 18px !important;
+}
+
+.btn-secondary{
+    color: black !important;
+    background: white !important;
+    border-color: #6A00FF !important;
+    border-radius: 30px !important;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 10px 20px!important;
+    font-size: .875rem;
+    border-radius: 0.2rem;
+    margin-right: 200px !important;
+}
+
+.navbar-brand{
+    margin-left: 200px !important;
+}
+
+
+.jumbotron {
+    display: flex !important;
+    align-items: center !important;
+    margin-top: 221px;
+  }
+  
+  .jumbotron-content {
+    flex: 1 !important; 
+    padding: 20px !important; 
+    margin-left: 200px;
+  }
+  
+  .jumbotron-image {
+    flex: 1 !important;
+    text-align: right !important;
+  }
+  
+  .jumbotron-image img {
+    max-width: 100% !important;
+    width: 565px;
+    height: 557px;
+    margin-right: 200px;
+  }
+  
+  .display-4{
+    font-weight: bold !important;
+    width: 600px;
+    font-size: 100px !important;
+  }
+
+  .btn-primary{
+    color: #6A00FF !important;
+    background-color: white !important;
+    border-color: #6A00FF !important;
+    border-radius: 100px !important;
+    margin-top: 150px;
+  }
+
+
+
+  .jumbotron-intro {
+    display: flex !important;
+    align-items: center !important;
+    margin-top: 221px;
+  }
+  
+  .jumbotron-content-intro {
+    flex: 1 !important; 
+    padding: 20px !important; 
+    margin-left: 200px;
+  }
+
+  .display-5{
+    font-size: 44px !important;
+    font-weight: bold !important;
+  }
+
+  .jumbotron-content-intro p{
+    margin-top: 50px;
+    width: 500px;
+    font-size: 18px !important;
+    font-weight: 300px !important;
+  }
+
+  .learn-more{
+    margin-top: 20px;
+    border-color: white !important;
+    margin-left: -15px;
+    font-weight: bold !important;
+  }
+
+  .jumbotron-method {
+    display: flex !important;
+    align-items: center !important;
+    margin-top: 221px;
+  }
+  
+  .jumbotron-content-method {
+    flex: 1 !important; 
+    padding: 20px !important; 
+    margin-left: 550px;
+  }
+
+  .jumbotron-content-method p{
+    margin-top: 50px;
+    width: 810px;
+    font-size: 18px !important;
+    font-weight: 300px !important;
+  }
+
+  .get-started{
+    margin-top: 20px;
+    border-color: #6A00FF !important;
+    margin-left: -15px !important;
+    font-weight: bold !important;
+    color: white !important;
+    background-color: #6A00FF !important;
+    margin-left: 400px !important;
+  }
+
+  .jumbotron-method-image {
+    flex: 1 !important;
+    text-align: center !important;
+    margin-right: 600px;
+    width: 900px !important;
+  }
+  
+  .jumbotron-method-image img {
+    max-width: 100% !important;
+    width: 1068px !important;
+    height: 557px;
+    
+  }
+
+  #new-content button{
+    position: relative;
+    top: 0px !important;
+  }
+
+  .display-6{
+    font-size: 36px !important;
+    margin-bottom: -37px;
+  }
+
+  .method1{
+    display: flex;
+    justify-content: center;
+    margin-right: 180px !important;
+  }
+
+  #getstarted{
+    margin-top: 50px !important;
+    margin-left: 332px !important;
+  }
+
+  .iterative1 img{
+    scale: .75;
+    margin-left: 100px;
+  }
+
+  .iterative1 h1{
+    width: 500px;
+    text-align: left;
+    margin-right: 100px;
+  }
+
+  .iterative1 p{
+    width: 450px;
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 140px;
+  }
+
+  .custom-padding{
+    padding-top: 105px !important;
+  }
+
+  .btn-light{
+    background-color: white !important;
+    color: black !important;
+    border-color: #6A00FF !important;
+    border-radius: 50px !important;
+    padding: 10px !important;
+  }
+
+.final1{
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #6A00FF !important;
+}
+
+.btn:hover {
+  background-color: #6A00FF !important;
+  color: white !important;
+}
+
+.btn-link{
+  border: none;
+  background-color: white !important;
+  color: black !important;
+}
+
+.btn-link:hover{
+  color: #6A00FF !important;
+}
+

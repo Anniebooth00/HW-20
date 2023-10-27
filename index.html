@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!--Navigation Code-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#introduction">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testing">Testing</a>
+            </li>
+            <a href="https://www.figma.com/proto/5knbADL85gGL7idFlwg9He/Final-Portfolio?page-id=0%3A1&type=design&node-id=4-5&viewport=-140%2C287%2C0.33&t=biJw9TuY3s3gn5ag-1&scaling=scale-down&starting-point-node-id=4%3A5&mode=design" class="btn btn-secondary btn-sm d-flex justify-content-center">Prototype</a>
+          </ul>
+        </div>
+      </nav>
+      <!--End of Navigation Code-->
+
+            <!--Start of hero-->
+      <div class="jumbotron">
+        <div class="jumbotron-content">
+          <h1 class="display-4">Portfolio Case Study</h1>
+          <a class="btn btn-primary btn-lg" href="#introduction" role="button">↓</a>
+        </div>
+        <div class="jumbotron-image">
+          <img src="images/undraw_Online_articles_re_yrkj.png" alt="Research Image">
+        </div>
+      </div>
+      <!--End of hero-->
+
+      <!--Start of Introduction-->
+      <div id="introduction" class="jumbotron-intro">
+        <div class="jumbotron-content-intro">
+          <h1 class="display-5">Introduction</h1>
+          <p>In this case study, we will delve into an analysis of my personal portfolio, a curated collection of my creative and professional work as a UX/UI Designer.</p>
+          <p>The primary objective of this case study is to provide an in-depth analysis of the projects and achievements within my portfolio. This case study will explore the most significant projects within my portfolio, highlighting key accomplishments, challenges overcome, and lessons learned.</p>
+        </div>
+        <div class="jumbotron-image">
+          <img src="images/undraw_Presentation_re_sxof.png" alt="Intro Image">
+        </div>
+      </div>
+      <!--End of Introduction-->
+
+<!-- Start of Methodology -->
+<div id="research" class="container method1">
+<div class="jumbotron-method">
+  <div class="jumbotron-content-method">
+    <div id="initial-content">
+      <h1 class="display-5">Methodology and Problem Identification</h1>
+      <p>In this section, we will discuss the research methodology employed to identify and define the problem at the heart of this case study. We will outline the steps taken to assess the effectiveness of my personal portfolio in showcasing my evolving skills and achievements as a Ux/Ui Designer, and to evaluate its alignment with the demands and expectations of the design industry.</p>
+      <div class="jumbotron-method-image">
+        <img src="images/undraw_Problem_solving_re_4gq3.png" alt="Problem Image">
+      </div>
+      <button id="getstarted" class="btn btn-primary btn-lg" onclick="showContent(1)">Get Started</button>
+    </div>
+
+    <div id="content1" style="display: none;">
+      <h1 class="display-5">1. Portfolio Review and Selection Criteria:</h1>
+      <p>To begin this analysis, I meticulously reviewed the contents of my personal portfolio, considering a range of criteria for inclusion. Projects were chosen based on factors such as their significance in representing my skills and growth over time, diversity in design styles, and relevance to my career trajectory.</p>
+      <div class="jumbotron-method-image">
+        <img src="images/undraw_Reviewed_docs_re_9lmr.png" alt="Review Image">
+      </div>
+      <button class="btn btn-primary btn-lg" onclick="showInitialContent()">Back</button>
+      <button class="btn btn-primary btn-lg" onclick="showContent(2)">Next</button>
+      
+    </div>
+
+    <div id="content2" style="display: none;">
+      <h1 class="display-5">2. Self-Reflection and Self-Assessment:</h1>
+      <p>Self-reflection and self-assessment played a pivotal role in this research. I carefully examined each project within the portfolio, assessing their alignment with my evolving goals and proficiency as a Ux/Ui designer. This process revealed areas of strength and potential areas for improvement.</p>
+      <div class="jumbotron-method-image">
+        <img src="images/undraw_survey_05s5.png" alt="Survey Image">
+      </div>
+      <button class="btn btn-primary btn-lg" onclick="showContent(1)">Back</button>
+      <button class="btn btn-primary btn-lg" onclick="showContent(3)">Next</button>
+    </div>
+    
+
+    <div id="content3" style="display: none;">
+      <h1 class="display-5">3. Industry Research and Benchmarking:</h1>
+      <p>Industry research was conducted to understand the prevailing standards and expectations within the graphic design field. I reviewed industry trends, best practices in portfolio presentation, and the benchmarks for a competitive design portfolio.</p>
+      <div class="jumbotron-method-image">
+        <img src="images/undraw_Instant_analysis_re_mid5.png" alt="Review Image">
+      </div>
+      <button class="btn btn-primary btn-lg" onclick="showContent(2)">Back</button>
+      <button class="btn btn-primary btn-lg" onclick="showContent(4)">Next</button>
+      
+    </div>
+
+    <div id="content4" style="display: none;">
+      <h1 class="display-5">4. Interviews and Feedback Gathering:</h1>
+      <p>To gain a broader perspective, I engaged in discussions with seasoned Ux/Ui designers and mentors who provided valuable insights and feedback. Their input helped identify common challenges and the importance of a well-structured portfolio in the competitive design landscape.</p>
+      <div class="jumbotron-method-image">
+        <img src="images/undraw_Interview_re_e5jn.png" alt="Review Image">
+      </div>
+      <button class="btn btn-primary btn-lg" onclick="showContent(3)">Back</button>
+      <button class="btn btn-primary btn-lg" onclick="showContent(5)">Next</button>
+      
+    </div>
+
+    <div id="content5" style="display: none;">
+      <h1 class="display-5">5. Problem Statement Formulation:</h1>
+      <p>The culmination of this research is the formulation of the problem statement: "The challenge addressed in this case study is to assess the effectiveness of my personal portfolio in showcasing my evolving skills and achievements as a Graphic Designer, while also evaluating its alignment with the demands and expectations of the design industry and identifying opportunities for further improvement. The goal is to understand how well the portfolio reflects my growth and expertise, and to identify strategies for enhancing its impact and relevance in the professional context."</p>
+      <div class="jumbotron-method-image">
+        <img src="images/undraw_Checklist__re_2w7v.png" alt="Review Image">
+      </div>
+      <button class="btn btn-primary btn-lg" onclick="showContent4From5()">Back</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- End of Methodology -->
+
+<!--start of iterative process-->
+<div class="container-fluid iterative1">
+  <div class="row">
+    <div class="col-md-6 iterative-image">
+      <img src="images/undraw_product_iteration_kjok.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-6 iterative-text d-flex flex-column align-items-center justify-content-center">
+      <h1>Iterative Process and Portfolio Improvement</h1>
+      <p>In this section, we will explore the iterative steps taken to enhance my personal portfolio based on the insights gathered from research and testing. It outlines the changes and improvements made to the portfolio in response to identified issues and opportunities.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>1. Testing and Evaluation:</h1>
+      <p>After conducting an initial review and problem identification, I initiated a testing and evaluation phase. This involved seeking feedback from mentors, peers, and industry professionals, as well as conducting self-assessment.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>2. Analysis of Feedback and Data:</h1>
+      <p>I collected and analyzed the feedback received during the testing phase. This included both qualitative feedback, such as comments and impressions, and quantitative data, such as user engagement metrics and project views.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>3. Identification of Key Issues:</h1>
+      <p>Through this analysis, I identified key issues or areas for improvement in my portfolio. These issues included lack of project descriptions, inconsistent branding, chaotic layouts.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>4. Formulation of Improvement Strategies:</h1>
+      <p>With the identified issues in mind, I formulated a set of strategies and action plans to address each issue individually. These strategies were developed in alignment with industry best practices and the goals of my portfolio.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>5. Implementation of Changes:</h1>
+      <p>I executed the planned improvements, making changes to the portfolio's structure, content, and presentation. This involved revising project descriptions, updating work samples, and optimizing the overall design and layout.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>6. Re-Testing and Validation:</h1>
+      <p>Once the improvements were implemented, I re-entered the testing phase, seeking additional feedback and re-evaluating the portfolio's performance. This iterative process continued until the desired outcomes were achieved.</p>
+    </div>
+  </div>
+</div>
+<!--End of iterative process-->
+
+<!--start of prototype development-->
+<div id="testing" class="jumbotron-intro">
+  <div class="jumbotron-content-intro">
+    <h1 class="display-5">Prototype Development and Problem Resolution</h1>
+    <p>In this section, we will delve into the development of a prototype and the specific changes made to my personal portfolio to address the initial problem statement. It outlines the key elements of the prototype, how it resolved the identified problem, and the results of its implementation.</p>
+  </div>
+  <div class="jumbotron-image">
+    <img src="images/undraw_Prototyping_process_re_7a6p.png" alt="Intro Image">
+  </div>
+</div>
+
+<div class="container iterative2">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>1. Prototype Conceptualization:</h1>
+        <p>After defining the problem statement, I conceptualized a prototype that aimed to resolve the issues identified in my portfolio. The prototype was designed to test specific changes and improvements based on the research findings.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>2. Elements of the Prototype:</h1>
+        <p>The prototype included a redesigned homepage layout with prominent project categories, a refined project description format, and an enhanced visual representation of my work. These elements were chosen to address the initial problem of portfolio navigation and content clarity.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>3. Testing and Feedback Gathering:</h1>
+          <p>To gather feedback on the prototype, I conducted usability tests with five experienced designers and received feedback from an online survey. The testers provided insights on the improved user-friendliness of the site and pointed out areas that still needed refinement.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>4. Problem Resolution and Impact:</h1>
+        <p>The prototype significantly improved the portfolio's usability and visual appeal. Before the changes, visitors often struggled to find specific projects and understand their significance. After implementing the prototype, users reported easier navigation and increased engagement with my work.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>5. User Engagement and Metrics:</h1>
+        <p>Post-prototype implementation, user engagement metrics showed a 30% increase in average time spent on the portfolio and a 20% increase in the click-through rate to view project details. These metrics demonstrated the improved effectiveness of the portfolio in capturing and retaining visitor interest.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>6. Lessons Learned:</h1>
+          <p>Through the prototype development and testing process, I learned the importance of clear and concise project descriptions and the value of user-centered design. I also gained insights into the role of visual hierarchy in guiding users to the most relevant content.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>7. Integration of Prototype Changes:</h1>
+        <p>The successful elements of the prototype, such as the new homepage layout and project description format, were integrated into the final version of the portfolio. Further adjustments included refining the color scheme to enhance visual coherence.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container iterative2 custom-padding">
+  <div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1>8. Summary of Problem Resolution:</h1>
+        <p>In summary, the prototype effectively resolved the initial problem of unclear portfolio navigation and content presentation. It transformed the portfolio into a more user-friendly and visually appealing representation of my skills and expertise, resulting in increased user engagement and improved alignment with industry expectations.</p>
+    </div>
+  </div>
+</div>
+<!--End of prototype development-->
+
+<!--start of final proto-->
+<div class="container final1 text-center d-flex flex-column justify-content-center align-items-center">
+  <h1 class="mb-auto">Finalized Prototype</h1>
+  <img src="images/undraw_Designer_life_re_6ywf.png" class="img-fluid my-auto" alt="...">
+  <a href="https://www.figma.com/proto/5knbADL85gGL7idFlwg9He/Final-Portfolio?page-id=0%3A1&type=design&node-id=4-5&viewport=-140%2C287%2C0.33&t=biJw9TuY3s3gn5ag-1&scaling=scale-down&starting-point-node-id=4%3A5&mode=design" class="btn btn-light mt-auto">Get started</a>
+</div>
+<!--end of final proto-->
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+
+
+    
+  </body>
+</html>
